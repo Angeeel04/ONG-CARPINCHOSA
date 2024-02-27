@@ -1,0 +1,106 @@
+﻿@font-face {
+    font-family: 'HORIZON';
+    src: url('./Fonts/Phonk-RegularDEMO.otf');
+}
+
+@font-face {
+    font-family: 'fuente2';
+    src: url('./Fonts/YanoneKaffeesatz-Medium.ttf');
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #905010;
+    color: white;
+    font-family: 'HORIZON';
+    font-size: 30px;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.enlace:hover{
+    text-decoration: underline;
+}
+
+.logoHeader{
+    width: 30em;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    display: inline;
+}
+
+.enlacesHeader{
+    font-size: 0.7em;
+    width: 120em;
+}
+
+main{
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-top: 2.5em;
+    display: grid;
+    grid-template-columns: 75% 22.5%;
+    grid-template-rows: 100%;
+    gap: 2.5%;
+}
+
+article{
+    font-family: 'fuente2';
+    padding: 2%;
+    margin-bottom: 1%;
+    border: 3px solid #905010;
+    border-radius: 15px;
+}
+
+.carpinchadas{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, 32%);
+    gap: 0.5%;
+    height: 500px;
+}
+
+aside{
+    border: 1px solid black;
+    padding: 10px;
+    height: fit-content;
+    font-family: 'fuente2';
+    font-size: 22.5px;
+    border: 3px solid #905010;
+    border-radius: 15px;
+}
+
+.cuadroFooter{
+    width: 300px;
+    padding: 2%;
+}
+
+footer{
+    background-color: #905010;
+    color: white;
+    font-family: 'fuente2';
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
