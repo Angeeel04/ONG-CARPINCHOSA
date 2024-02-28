@@ -28,65 +28,19 @@
 
     <main>
         <section>
+            <h1 style="font-family: 'HORIZON';">UNETE A NUESTRA ONG</h1>
             <article>
-                <img src="./Archivos.imagenes/INICIO/img1.jpg" width="858vh">
-                <h1 style="font-family: 'HORIZON';">ONG CARPINCHOSA ASISTE A NUEVA CAMADA DE CARPINCHOS</h1>
-                <span style="font-size: 22.5px;">
-                    La ONG Carpinchosa ha anunciado con entusiasmo su reciente intervención para asistir a una nueva
-                    camada de carpinchos en peligro. Gracias a los esfuerzos dedicados de nuestro equipo de expertos en
-                    conservación y cuidado animal, hemos logrado proporcionar atención médica y cuidados especializados
-                    a esta adorable camada de crías de carpinchos.
-
-                    Nuestro objetivo es garantizar el bienestar y la supervivencia de estos encantadores animales, que
-                    son fundamentales para el equilibrio ecológico de nuestros ecosistemas acuáticos. Estamos
-                    comprometidos con la protección de la vida silvestre y trabajamos arduamente para asegurar un futuro
-                    brillante para todas las especies de carpinchos.<br><br>
-
-                    Nos sentimos honrados de poder contribuir a esta noble causa y agradecemos el apoyo continuo de
-                    nuestra comunidad de seguidores y voluntarios. Juntos, podemos hacer una diferencia significativa en
-                    la conservación y preservación de los carpinchos y su hábitat natural.<br><br>
-
-                    ¡Únete a nosotros en nuestro esfuerzo por proteger a estos adorables animales y asegurar un mundo
-                    mejor para las futuras generaciones de carpinchos!<br>
-                </span>
-            </article>
-
-            <article>
-                <h1 style="font-family: 'HORIZON';">ALGUNAS CARPINCHADAS POPULARES</h1>
-
-                <div class="carpinchadas">
-                    <div>
-                        <h2 style="font-family: 'HORIZON'; font-size: 23px;">LA GRAN FUGA ACUATICA</h2>
-                        <span style="font-size: 22.5px;">
-                            Un grupo de carpinchos traviesos en un zoológico ideó un plan ingenioso
-                            para escapar de su recinto. Utilizaron sus habilidades de natación para deslizarse por un
-                            canal de agua, dejando perplejos a los cuidadores que tuvieron que correr tras ellos para
-                            devolverlos a su hogar.
-                        </span>
-                    </div>
-
-                    <div>
-                        <h2 style="font-family: 'HORIZON'; font-size: 22.5px;">EL ASALTO A LA COCINA</h2>
-                        <span style=" font-size: 23px;">
-                            Una familia tenía un carpincho como mascota en su casa. Un día, mientras
-                            todos dormían, el travieso carpincho aprovechó la oportunidad para explorar la cocina.
-                            Descubrió una bolsa de papas fritas y, sin dudarlo, se zambulló en ella, dejando un rastro
-                            de chips
-                            esparcidos por toda la habitación al amanecer.
-                        </span>
-                    </div>
-
-                    <div>
-                        <h2 style="font-family: 'HORIZON';">LA FIESTA DEL JARDIN</h2>
-                        <span style="font-size: 22.5px; font-size: 23px;">
-                            Un grupo de carpinchos salvajes invadió el jardín de una casa en busca de
-                            diversión y comida. Se encontraron con una piscina inflable y, sin pensarlo dos veces, la
-                            convirtieron en su nueva zona de recreo. Los propietarios se despertaron al día siguiente
-                            para encontrarse con una fiesta improvisada de carpinchos chapoteando y jugando en su
-                            jardín.
-                        </span>
-                    </div>
-                </div>
+                <form method="post" action="boletin.php">
+                    INGRESA TUS DATOS <br><br>
+                        <label for="name" style="margin-right: 15px;">NOMBRE:</label><input type="text" id="name" required> <br><br>
+                        <label for="lastName" style="margin-right: 10px;">APELLIDO:</label><input type="text" id="lastName"required><br><br>
+                        <label for="email" style="margin-right: 28px;">EMAIL:</label><input type="email" id="email" required><br><br>
+                        <label for="num" style="margin-right: 15px;">NUMERO:</label><input type="text" id="num" required><br><br>
+                        <div class="botones">
+                            <input type="reset" value="BORRAR DATOS" class="botonesForm">
+                            <input type="submit" value="ENVIAR" class="botonesForm"><br>
+                        </div>
+                </form>
             </article>
         </section>
 
