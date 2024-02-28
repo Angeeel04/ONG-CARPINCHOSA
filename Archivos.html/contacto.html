@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Archivos.css/contactoStyle.css">
-    <title>ONG CARPINCHOSA | CONTACTO </title>
+    <title>ONG CARPINCHOSA | UNETE </title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
                 <li><a href="../index.html" class="enlace">INICIO</a></li>
                 <li><a href="carpinchadas.html" class="enlace">CARPINCHADAS</a></li>
                 <li><a href="galeria.html" class="enlace">GALERIA</a></li>
-                <li><a href="contacto.html" class="enlace">CONTACTO</a></li>
+                <li><a href="contacto.html" class="enlace">UNETE</a></li>
             </ul>
         </div>
     </header>
@@ -30,37 +30,67 @@
         <section>
             <h1 style="font-family: 'HORIZON';">UNETE A NUESTRA ONG</h1>
             <article>
+                <span style="font-size: 27px;">INGRESA TUS DATOS</span>
+
                 <form method="post" action="boletin.php">
-                    INGRESA TUS DATOS <br><br>
-                        <label for="name" style="margin-right: 15px;">NOMBRE:</label><input type="text" id="name" required> <br><br>
-                        <label for="lastName" style="margin-right: 10px;">APELLIDO:</label><input type="text" id="lastName"required><br><br>
-                        <label for="email" style="margin-right: 28px;">EMAIL:</label><input type="email" id="email" required><br><br>
-                        <label for="num" style="margin-right: 15px;">NUMERO:</label><input type="text" id="num" required><br><br>
-                        <div class="botones">
-                            <input type="reset" value="BORRAR DATOS" class="botonesForm">
-                            <input type="submit" value="ENVIAR" class="botonesForm"><br>
-                        </div>
+                    <div>
+                        <label for="name">NOMBRE:</label>
+                        <input type="text" id="name" required> <br><br>
+
+                        <label for="edad">EDAD:</label>
+                        <input type="number" id="edad" required><br><br>
+
+                        <label for="numero">NUMERO:</label>
+                        <input type="text" id="numero" required><br><br>
+
+                        <label for="noticias">NEWSLETTER:</label>
+
+                        <input type="checkbox" id="noticias" style="margin-left: -100px; margin-right: -100px;">
+                        <label for="noticias" style="width: fit-content;">SÍ</label>
+                    </div>
+
+                    <div>
+                        <label for="apellido">APELLIDO:</label>
+                        <input type="text" id="apellido" required><br><br>
+
+                        <label>SEXO:</label>
+                        <input type="radio" id="masc" name="sexo" value="MASCULINO" class="radio"> MASCULINO
+                        <input type="radio" id="fem" name="sexo" value="FEMENINO" class="radio">FEMENINO
+
+                        <br><br>
+
+                        <label for="email">EMAIL:</label>
+                        <input type="email" id="email" required><br><br>
+
+                        <label for="dieccion">DIRECCION:</label>
+                        <input type="text" id="direccion" required><br><br>
+                    </div>
+
+                    <div class="botones">
+                        <input type="reset" value="BORRAR DATOS" class="botonesForm">
+                        <input type="submit" value="ENVIAR" class="botonesForm"><br>
+                    </div>
                 </form>
             </article>
         </section>
 
         <aside>
-            <h1 style="font-family: 'HORIZON'; font-size: 20px;">INFORMACION SOBRE LOS CARPINCHOS</h1>
-            <img src="./Archivos.imagenes/INICIO/aside.jpeg" style="width: 100%;">
-            <span>Los carpinchos, también conocidos como capibaras, son los roedores más grandes del mundo y son nativos
-                de América del Sur. Son animales semiacuáticos que viven en hábitats acuáticos como pantanos, ríos y
-                lagos. <br><br>
-                Son herbívoros y se alimentan principalmente de plantas acuáticas y pasto. Los carpinchos son
-                animales sociales que viven en grupos familiares llamados "bandas". Su pelaje denso y áspero varía en
-                tonos de marrón a gris. Son una especie importante para los ecosistemas acuáticos, ya que ayudan a
-                controlar la vegetación y mantienen la biodiversidad. <br><br>
-                La conservación de sus hábitats naturales es crucial para garantizar su supervivencia a largo plazo.</span>
+            <h1 style="font-family: 'HORIZON'; font-size: 20px;">LOS CARPINCHOS ESTAREMOS FELICES DE RECIBIR A UN NUEVO
+                COLABORADOR</h1>
+            <img src="../Archivos.imagenes/CONTACTO/img1.jpeg" style="width: 100%; margin-bottom: 1%;">
+            <span>
+                ¡Únete a la manada y sé parte del cambio!<br><br>
+
+                Al suscribirte a ONG CARPINCHOSA, te convertirás en un gran carpidefensor. <br><br>
+                Recibirás actualizaciones exclusivas sobre nuestros proyectos, noticias emocionantes sobre
+                nuestros carpinchos y oportunidades especiales para participar en eventos y actividades de
+                voluntariado..</span>
         </aside>
     </main>
 
     <footer>
         <div class="cuadroFooter">
-            <h1 style="font-family: 'HORIZON'; font-size: 35px; color: black;">CONTACTO</h1>
+            <h1 style="font-family: 'HORIZON'; font-size: 35px; color: black;">UNETE</h1>
 
             <span>
                 Correo electrónico: info@carpinchosfelices.com <br><br>
@@ -72,16 +102,19 @@
         <div class="cuadroFooter">
             <h1 style="font-family: 'HORIZON'; font-size: 35px; margin-bottom: 10px; color: black;">REDES SOCIALES</h1>
             <span>
-                <a href="./index.html">Facebook</a> <br><br> <a href="./index.html">Twitter</a> <br><br> <a
-                    href="./index.html">Instagram</a>
+                <a href="#">Facebook</a> <br><br> 
+                <a href="#">Twitter</a> <br><br> 
+                <a href="#">Instagram</a>
             </span>
         </div>
 
         <div class="cuadroFooter">
             <h1 style="font-family: 'HORIZON'; font-size: 35px; margin-bottom: 10px; color: black;">ENLACES RAPIDOS</h1>
             <span>
-                <a href="./index.html">Inicio</a> <br><br> <a href="./index.html">Carpinchadas</a> <br><br> <a
-                    href="./index.html">Galería</a> <br><br> <a href="./index.html">Contacto</a>
+                <a href="./../index.html">Inicio</a> <br><br> 
+                <a href="./carpinchadas.html">Carpinchadas</a> <br><br> 
+                <a href="./galeria.html">Galería</a> <br><br> 
+                <a href="./contacto.html">Unete</a>
             </span>
         </div>
     </footer>
