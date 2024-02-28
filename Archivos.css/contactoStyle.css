@@ -72,7 +72,7 @@ article{
 }
 
 form{
-    font-size: 22.5px;
+    font-size: 1.7em;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -80,22 +80,22 @@ form{
 }
 
 input{
-    width: 250px;
-    height: 25px;
+    width: 20em;
+    height: 1.8em;
     border-radius: 5px;
     border: 2px solid #905010;
 }
 
 label{
     display: inline-block;
-    width: 85px;
+    width: 3em;
     margin-right: 20px;
 }
 
 .radio{
-    width: 20px;
-    margin-left: 15px;
-    margin-top: 10px;
+    width: 1.5em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
 }
 
 .botones{
@@ -106,8 +106,8 @@ label{
 .botonesForm{
     margin: 15px;
     border-radius: 15px;
-    width: 400px;
-    height: 50px;
+    width: 20em;
+    height: 4em;
     border: 2px solid #905010;
     background-color: #905010;
     color: white;
@@ -147,4 +147,94 @@ footer{
     justify-content: space-between;
     padding-left: 10%;
     padding-right: 10%;
+    font-size: 1.1em;
+}
+
+.enlacesFooter{
+    font-size: 1.2em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    * { 
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 1.05em;
+    }
+    
+    main{
+        margin-left: 3em;
+        margin-right: 3em;
+        margin-top: 2.5em;
+        display: grid;
+        grid-template-columns: 60% 37.5%;
+        /*grid-template-columns: 75% 22.5%;*/
+        grid-template-rows: 100%;
+        gap: 2.5%;
+    }
+    
+    article{
+        font-family: 'fuente2';
+        padding: 5%;
+        margin-bottom: 1%;
+        font-size: 0.9em;
+    }
+    
+    form{
+        font-size: 1.7em;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+
+    .divForm{
+        margin-bottom: 0.5em;
+    }
+
+    label{
+        display: inline-block;
+        width: 3em;
+        margin-right: 20px;
+        margin-top: 0.1em
+    }
+    
+    .radio{
+        width: 1.5em;
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .botonesForm{
+        width: 10em;
+        height: 4em;
+    }
+
+    aside{
+        padding: 10px;
+        font-family: 'fuente2';
+        font-size: 1.3em;
+    }
+    
+    .cuadroFooter{
+        width: 300px;
+        padding: 2%;
+    }
+    
+    footer{
+        background-color: #905010;
+        color: white;
+        font-family: 'fuente2';
+        font-size: 0.9em;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
