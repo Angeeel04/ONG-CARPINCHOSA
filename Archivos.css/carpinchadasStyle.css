@@ -63,25 +63,24 @@ main{
     gap: 2.5%;
 }
 
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+}
+
 article{
     font-family: 'fuente2';
     padding: 2%;
     margin-bottom: 1%;
     border: 3px solid #905010;
     border-radius: 15px;
-}
-
-.carpinchadas{
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(3, 32%);
-    gap: 0.5%;
-    height: 500px;
-}
-
-img{
-    width: 100%;
-    border-radius: 15px;
+    height: fit-content;
 }
 
 aside{

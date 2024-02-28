@@ -79,11 +79,6 @@ article{
     height: 500px;
 }
 
-img{
-    width: 100%;
-    border-radius: 15px;
-}
-
 aside{
     border: 1px solid black;
     padding: 10px;
