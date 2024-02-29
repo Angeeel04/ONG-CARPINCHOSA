@@ -186,8 +186,7 @@ footer{
         align-items: center;
         justify-content: center;
         text-align: center;
-        font-size: 1.5em;
-        width: fit-content;
+        font-size: 1.25em;
     }
 
     .logoHeader {
@@ -242,7 +241,6 @@ footer{
         justify-content: center;
         padding: 20px;
         font-size: 1em;
-        width: fit-content;
     }
 
     .cuadroFooter {
