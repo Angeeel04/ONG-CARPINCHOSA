@@ -98,6 +98,11 @@ label{
     margin-top: 0.5em;
 }
 
+#noticias{
+    margin-left: -2em;
+    margin-right: -7.5em;
+}
+
 .botones{
     display: flex;
     justify-content: center;
@@ -236,5 +241,121 @@ footer{
         justify-content: space-between;
         padding-left: 5%;
         padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .logoHeader {
+        width: auto;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .enlacesHeader {
+        width: 100%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px;
+    }
+
+    main {
+        margin: 0;
+        padding-top: 1em;
+        padding-left: 1.8em;
+        width: 100%;
+    }
+
+    article{
+        font-family: 'fuente2';
+        padding: 5%;
+        margin-bottom: 1%;
+        margin-top: 2em;
+        font-size: 0.7em;
+        margin-left: 2em;
+        margin-right: 2em;
+        width: fit-content;
+    }
+    
+    form{
+        font-size: 1.7em;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-top: 20px;
+        width: fit-content;
+    }
+
+    input{
+        width: 15em;
+        height: 1.8em;
+        border-radius: 5px;
+        border: 2px solid #905010;
+    }
+
+    #noticias{
+        margin-left: -1em;
+        margin-right: -5em;
+    }
+
+    .divForm{
+        margin-bottom: 0.5em;
+    }
+
+    label{
+        display: inline-block;
+        width: 3em;
+        margin-right: 20px;
+        margin-top: 0.1em
+    }
+    
+    .radio{
+        width: 1.5em;
+        margin-left: 0.5em;
+        margin-top: 0.5em;
+    }
+
+    .botonesForm{
+        width: 9em;
+        height: 3em;
+    }
+
+    aside {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    .cuadroFooter {
+        width: 100%;
+        max-width: 300px;
     }
 }

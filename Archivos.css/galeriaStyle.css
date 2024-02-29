@@ -148,14 +148,6 @@ footer{
         margin-bottom: 1%;
         font-size: 0.9em;
     }
-    
-    .carpinchadas{
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(3, 1fr);
-        gap: 0.5%;
-        height: fit-content;
-    }
 
     aside{
         padding: 10px;
@@ -177,5 +169,80 @@ footer{
         justify-content: space-between;
         padding-left: 5%;
         padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .logoHeader {
+        width: auto;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+
+    .enlacesHeader {
+        width: 100%;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        margin: 10px;
+    }
+
+    main {
+        margin: 0;
+        padding-top: 1em;
+        padding-left: 1.8em;
+        width: 100%;
+    }
+
+    article {
+        width: 23em;
+        margin-bottom: 20px;
+    }
+
+    section{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        gap: 10px; 
+        margin-bottom: 2%;
+    }
+
+    aside {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+        justify-content: center;
+        padding: 20px;
+        font-size: 1em;
+    }
+
+    .cuadroFooter {
+        width: 100%;
+        max-width: 300px;
     }
 }
