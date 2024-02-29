@@ -179,7 +179,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) and (min-width: 375px) {
     * {
         box-sizing: border-box;
         margin: 0;
