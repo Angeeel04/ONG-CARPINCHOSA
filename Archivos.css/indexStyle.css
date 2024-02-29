@@ -90,7 +90,7 @@ aside{
     padding: 10px;
     height: fit-content;
     font-family: 'fuente2';
-    font-size: 1.1em;
+    font-size: 0.8em;
     border: 3px solid #905010;
     border-radius: 15px;
 }
@@ -158,7 +158,8 @@ footer{
     aside{
         padding: 10px;
         font-family: 'fuente2';
-        font-size: 0.85em;
+        font-size: 0.65em;
+        width: fit-content;
     }
     
     .cuadroFooter{
@@ -215,9 +216,11 @@ footer{
     }
 
     main {
+        margin: 0;
+        padding-top: 1em;
+        width: 100%;
         display: flex;
-        justify-content: center;
-        align-content: space-around;
+        justify-content: space-around;
     }
 
     article {

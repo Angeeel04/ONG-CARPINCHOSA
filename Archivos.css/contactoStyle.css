@@ -131,6 +131,7 @@ aside{
     border: 1px solid black;
     padding: 10px;
     height: fit-content;
+    width: fit-content;
     font-family: 'fuente2';
     font-size: 1.4em;
     border: 3px solid #905010;
