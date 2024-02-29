@@ -173,7 +173,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 767px) and (min-width: 375px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
     * {
         box-sizing: border-box;
         margin: 0;
@@ -211,12 +211,14 @@ footer{
 
     main {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-content: space-around;
+        padding-left:0.5em;
+        padding-right:0.5em;
     }
 
     article {
-        width: 23em;
+        width: fit-content;
         margin-bottom: 20px;
     }
 
