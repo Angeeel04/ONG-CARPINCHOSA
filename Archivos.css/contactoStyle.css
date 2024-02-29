@@ -132,7 +132,7 @@ aside{
     padding: 10px;
     height: fit-content;
     font-family: 'fuente2';
-    font-size: 22.5px;
+    font-size: 1.4em;
     border: 3px solid #905010;
     border-radius: 15px;
     margin-bottom: 5%;
@@ -281,22 +281,18 @@ footer{
     }
 
     main {
-        margin: 0;
-        padding-top: 1em;
-        padding-left: 1.4em;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
     }
 
     article{
         font-family: 'fuente2';
-        padding: 5%;
         margin-bottom: 1%;
         margin-top: 2em;
         font-size: 0.7em;
-        margin-left: 2em;
-        margin-right: 2em;
-        width: fit-content;
     }
+
     
     form{
         font-size: 1.7em;
@@ -308,7 +304,7 @@ footer{
     }
 
     input{
-        width: 15em;
+        width: 13em;
         height: 1.8em;
         border-radius: 5px;
         border: 2px solid #905010;
@@ -337,7 +333,7 @@ footer{
     }
 
     .botonesForm{
-        width: 9em;
+        width: 8.5em;
         height: 3em;
     }
 

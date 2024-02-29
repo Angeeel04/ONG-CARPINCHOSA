@@ -91,7 +91,7 @@ aside{
     padding: 10px;
     height: fit-content;
     font-family: 'fuente2';
-    font-size: 22.5px;
+    font-size: 0.9em;
     border: 3px solid #905010;
     border-radius: 15px;
 }
@@ -209,10 +209,9 @@ footer{
     }
 
     main {
-        margin: 0;
-        padding-top: 1em;
-        padding-left: 1.4em;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
     }
 
     article {

@@ -215,10 +215,9 @@ footer{
     }
 
     main {
-        margin: 0;
-        padding-top: 1em;
-        padding-left: 1.4em;
-        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
     }
 
     article {
