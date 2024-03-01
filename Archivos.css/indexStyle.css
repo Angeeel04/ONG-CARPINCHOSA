@@ -1,4 +1,6 @@
-﻿@font-face {
+﻿/*Hecho por Ángel Chávez 1ºDAM*/
+
+@font-face {
     font-family: 'HORIZON';
     src: url('./Fonts/Phonk-RegularDEMO.otf');
 }
@@ -24,7 +26,8 @@ header{
     background-color: #905010;
     color: white;
     font-family: 'HORIZON';
-    font-size: 2.25em;
+    font-size: 30px;
+    /*font-size: 2.25em;*/
     padding-right: 1em;
     padding-left: 1em;
 }
